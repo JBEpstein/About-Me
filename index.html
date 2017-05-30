@@ -16,7 +16,7 @@
    </header>
    <section class="light-contrast" id="high-school-experience">
      <div class="container">
-      <h2 class="highschool-heading">High School</h2>
+      <h2 class="dark-heading">High School</h2>
       <hr class="light">
       <p>I went to La Sierra military academy, while I was in military high school I took as much graphic design and computer base electives as I could. Back then html was much simpler and I could build basic websites. While I was in high school I took college classes at a community college and ended up graduating as valedictorian.</p>
      </div>
@@ -30,7 +30,7 @@
    </section>
    <section class="light-contrast" id="military">
      <div class="container">
-       <h2 class="highschool-heading">Military</h2>
+       <h2 class="dark-heading">Military</h2>
        <hr class="light">
        <p>Working at Advernture Park was not enough for me and was not going to go anywhere. I enlisted in the Air Force at the age of 19 and ended up as a 2W1, also known as Armament Systems Specialist. I did a few different things while in the Air Force including Honorguard and getting augmented into Security Forces. I went into a program called palace chase that moved me from active duty into the reserves after 6.4 years of activer duty and I ended up stationed at JBLM.</p>
      </div>
@@ -47,15 +47,15 @@
 
   <section class="light-contrast" id="answers">
     <div class="container">
-      <h2 class="highschool-heading">Your Answers</h2>
+      <h2 class="dark-heading">Your Answers</h2>
       <hr class="light">
       <script type="text/javascript">
         /* Loop to run the code... Statement 1: initialize the variable used in the loop. Statement 2: Define the condition for running the loop. Statement 3: executed each time after the loop has been executed. Found reference on https://www.w3schools.com/js/js_loop_for.asp */
         for (var i = 0; i < db.length; i++) {
           var obj = db[i];
-          /* Nested loop to go through all keys if I decide to create more (not sure if I did this right but it works...) */
+          /* Nested loop to go through all keys if I decide to create more */
           for(key in obj){
-            document.write('<p>' + key + ' : ' + obj[key]+ '<br />');
+            document.write('<p>' + key + ' Your Answer : ' + obj[key]+ '<br />');
           }
         }
       </script>
