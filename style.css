@@ -54,7 +54,7 @@ hr {
   margin-left: auto;
 }
 
-.light-contrast {
+.light-background {
   background-color: #d6d6d6;
   padding: 100px 0;
 }
@@ -80,7 +80,7 @@ p {
   font-family: Arial, sans-serif;
 }
 
-.college-heading {
+.light-heading {
   margin-top: 0;
   color: #fff;
 }
@@ -94,7 +94,7 @@ hr.light {
   color: #fff;
 }
 
-.college {
+.dark-background {
   background-color: #434343;
   padding: 100px 0;
 }

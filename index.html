@@ -7,45 +7,45 @@
  <body>
    <header>
      <div class="header-content" id="content-center">
-       <div class="header-content-inner">
+       <div>
          <h1 id="homeHeading">Welcome to Joel's About Me page!</h1>
          <p>How about some information then...</p>
          <a href="#high-school-experience" class="btn">Find Out More</a>
        </div>
      </div>
    </header>
-   <section class="light-contrast" id="high-school-experience">
+   <section class="light-background" id="high-school-experience">
      <div class="container">
       <h2 class="dark-heading">High School</h2>
       <hr class="light">
       <p>I went to La Sierra military academy, while I was in military high school I took as much graphic design and computer base electives as I could. Back then html was much simpler and I could build basic websites. While I was in high school I took college classes at a community college and ended up graduating as valedictorian.</p>
      </div>
    </section>
-   <section class="college" id="college-experience">
+   <section class="dark-background" id="college-experience">
      <div class="container">
-       <h2 class="college-heading">College</h2>
+       <h2 class="light-heading">College</h2>
        <hr class="dark">
        <p class="white-font">After high school, I went back to the same community college I was going to during high school... Sadly it was not for me due to my maturity level at the time. I worked at a place called Adventure Park in CA for about a year. While at Adventure Park I fixed arcade games, batting cages, and laser tag vests/guns.</p>
      </div>
    </section>
-   <section class="light-contrast" id="military">
+   <section class="light-background" id="military">
      <div class="container">
        <h2 class="dark-heading">Military</h2>
        <hr class="light">
        <p>Working at Advernture Park was not enough for me and was not going to go anywhere. I enlisted in the Air Force at the age of 19 and ended up as a 2W1, also known as Armament Systems Specialist. I did a few different things while in the Air Force including Honorguard and getting augmented into Security Forces. I went into a program called palace chase that moved me from active duty into the reserves after 6.4 years of activer duty and I ended up stationed at JBLM.</p>
      </div>
    </section>
-   <section class="college" id="military">
+   <section class="dark-background" id="civilian">
      <div class="container">
-        <h2 class="college-heading">Civilian life</h2>
+        <h2 class="light-heading">Civilian life</h2>
         <hr class="dark">
-        <p>After ending up in WA, I was lucky enough to end up with an IT job. I started as a jr. Network Support Engineer and am currently a Network Support Engineer for National products inc.. They are also known as Rammount, you can see what they do at rammount.com. I built a lot of the servers they are running on and help keep their everyday IT needs taken care of. I hope to use CodeFellows as a way to progress my career into Development.</</p>
+        <p class="white-font">After ending up in WA, I was lucky enough to end up with an IT job. I started as a jr. Network Support Engineer and am currently a Network Support Engineer for National products inc.. They are also known as Rammount, you can see what they do at rammount.com. I built a lot of the servers they are running on and help keep their everyday IT needs taken care of. I hope to use CodeFellows as a way to progress my career into Development.</</p>
      </div>
    </section>
 
     <script src="app.js"></script>
 
-  <section class="light-contrast" id="answers">
+  <section class="light-background" id="answers">
     <div class="container">
       <h2 class="dark-heading">Your Answers</h2>
       <hr class="light">
@@ -55,7 +55,7 @@
           var obj = db[i];
           /* Nested loop to go through all keys if I decide to create more */
           for(key in obj){
-            document.write('<p>' + key + ' Your Answer : ' + obj[key]+ '<br />');
+            document.write('<p>' + key + '   Your Answer : ' + obj[key]+ '<br />');
           }
         }
       </script>

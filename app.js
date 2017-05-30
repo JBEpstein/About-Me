@@ -16,7 +16,7 @@ console.log(db);
 alert('Hello ' + user + '... I\'m going to ask you a few questions.');
 
 var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Do you think I was in the Air Force?');
-db[0] = {'Do you think I was in the Air Force?' : answer1};
+db[0] = {'Do you think I was in the Air Force? Correct answer: Y...' : answer1};
 
 if (answer1.toUpperCase() === 'Y') {
   alert('Yes! You are correct!!! I was on active duty for 6.5 years!');
@@ -25,16 +25,16 @@ if (answer1.toUpperCase() === 'Y') {
 }
 
 var answer2 = prompt(user + ' please answer with a Yes or No. Do you believe I am 27 years old?');
-db[1] = {'Do you believe I am 27 years old?': answer2};
+db[1] = {'Do you believe I am 27 years old? Correct answer: Yes...': answer2};
 
 if (answer2.toLowerCase() === 'yes') {
   alert('You are correct!');
 } else {
-  alert('Naw.');
+  alert('Naw. Sorry you are wrong');
 }
 
 var answer3 = prompt('Do you think I have a cat? This is a yes or no question');
-db[2] = {'Do you think I have a cat?': answer3};
+db[2] = {'Do you think I have a cat? Correct answer: yes...': answer3};
 
 if (answer3.toLowerCase() === 'yes') {
   alert('You are amazing and correct!');
@@ -43,16 +43,16 @@ if (answer3.toLowerCase() === 'yes') {
 }
 
 var answer4 = prompt('Do I have a little brother? This is a y or n question...');
-db[3] = {'Do I have a little brother?': answer4};
+db[3] = {'Do I have a little brother? Correct answer: y...': answer4};
 
 if (answer4.toLowerCase() === 'y') {
   alert('You are correct!');
 } else {
-  alert('Nope.');
+  alert('Nope. You are wrong...');
 }
 
 var answer5 = prompt('Do you think I currently have a GTO? yes or no please ' + user + '.');
-db[4] = {'Do you think I currently have a GTO?': answer5};
+db[4] = {'Do you think I currently have a GTO? Correct answer: no...': answer5};
 
 if (answer5.toLowerCase() === 'yes') {
   alert('No... Sadly I sold it.');
