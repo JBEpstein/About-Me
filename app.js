@@ -15,7 +15,7 @@ console.log('The user\'s name is: ' + user);
 console.log(db);
 alert('Hello ' + user + '... I\'m going to ask you a few questions.');
 
-var answer1 = prompt(user + ' this is a yes or no question, so please answer with a Y or N. Do you think I was in the Air Force?');
+var answer1 = prompt(user + ' Please answer with a Y or N. Do you think I was in the Air Force?');
 db[0] = {'Do you think I was in the Air Force? Correct answer: Y...' : answer1};
 
 if (answer1.toUpperCase() === 'Y') {
@@ -33,7 +33,7 @@ if (answer2.toLowerCase() === 'yes') {
   alert('Naw. Sorry you are wrong');
 }
 
-var answer3 = prompt('Do you think I have a cat? This is a yes or no question');
+var answer3 = prompt('Do you think I have a cat? This is a yes or no question, please answer with a yes or no.');
 db[2] = {'Do you think I have a cat? Correct answer: yes...': answer3};
 
 if (answer3.toLowerCase() === 'yes') {
@@ -42,7 +42,7 @@ if (answer3.toLowerCase() === 'yes') {
   alert('No, sorry you are wrong bro.');
 }
 
-var answer4 = prompt('Do I have a little brother? This is a y or n question...');
+var answer4 = prompt('Do I have a little brother? This is a y or n question, so please answer with a y or n.');
 db[3] = {'Do I have a little brother? Correct answer: y...': answer4};
 
 if (answer4.toLowerCase() === 'y') {
