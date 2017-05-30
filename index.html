@@ -5,10 +5,61 @@
    <link rel="stylesheet" type="text/css" href="style.css"/>
  </head>
  <body>
-   <h1>Welcome to Joel's About Me Page</h1>
-   <p>Here is some information about me...</p>
-   <p class="page-content">Here is SOME MORE crazy awesome information about me...</p>
-   <p class="page-content" id="unique-p-tag">At this point point its getting a little egotistical...</p>
-   <script src="app.js"></script>
+   <header>
+     <div class="header-content" id="content-center">
+       <div class="header-content-inner">
+         <h1 id="homeHeading">Welcome to Joel's About Me page!</h1>
+         <p>How about some information then...</p>
+         <a href="#high-school-experience" class="btn">Find Out More</a>
+       </div>
+     </div>
+   </header>
+   <section class="light-contrast" id="high-school-experience">
+     <div class="container">
+      <h2 class="highschool-heading">High School</h2>
+      <hr class="light">
+      <p>I went to La Sierra military academy, while I was in military high school I took as much graphic design and computer base electives as I could. Back then html was much simpler and I could build basic websites. While I was in high school I took college classes at a community college and ended up graduating as valedictorian.</p>
+     </div>
+   </section>
+   <section class="college" id="college-experience">
+     <div class="container">
+       <h2 class="college-heading">College</h2>
+       <hr class="dark">
+       <p class="white-font">After high school, I went back to the same community college I was going to during high school... Sadly it was not for me due to my maturity level at the time. I worked at a place called Adventure Park in CA for about a year. While at Adventure Park I fixed arcade games, batting cages, and laser tag vests/guns.</p>
+     </div>
+   </section>
+   <section class="light-contrast" id="military">
+     <div class="container">
+       <h2 class="highschool-heading">Military</h2>
+       <hr class="light">
+       <p>Working at Advernture Park was not enough for me and was not going to go anywhere. I enlisted in the Air Force at the age of 19 and ended up as a 2W1, also known as Armament Systems Specialist. I did a few different things while in the Air Force including Honorguard and getting augmented into Security Forces. I went into a program called palace chase that moved me from active duty into the reserves after 6.4 years of activer duty and I ended up stationed at JBLM.</p>
+     </div>
+   </section>
+   <section class="college" id="military">
+     <div class="container">
+        <h2 class="college-heading">Civilian life</h2>
+        <hr class="dark">
+        <p>After ending up in WA, I was lucky enough to end up with an IT job. I started as a jr. Network Support Engineer and am currently a Network Support Engineer for National products inc.. They are also known as Rammount, you can see what they do at rammount.com. I built a lot of the servers they are running on and help keep their everyday IT needs taken care of. I hope to use CodeFellows as a way to progress my career into Development.</</p>
+     </div>
+   </section>
+
+    <script src="app.js"></script>
+
+  <section class="light-contrast" id="answers">
+    <div class="container">
+      <h2 class="highschool-heading">Your Answers</h2>
+      <hr class="light">
+      <script type="text/javascript">
+        /* Loop to run the code... Statement 1: initialize the variable used in the loop. Statement 2: Define the condition for running the loop. Statement 3: executed each time after the loop has been executed. Found reference on https://www.w3schools.com/js/js_loop_for.asp */
+        for (var i = 0; i < db.length; i++) {
+          var obj = db[i];
+          /* Nested loop to go through all keys if I decide to create more (not sure if I did this right but it works...) */
+          for(key in obj){
+            document.write('<p>' + key + ' : ' + obj[key]+ '<br />');
+          }
+        }
+      </script>
+    </div>
+  </section>
  </body>
 </html>
