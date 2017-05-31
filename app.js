@@ -1,7 +1,7 @@
 'use strict';
 
 var db = [];
-/*var rightAnswer = 5;*/
+
 var confirmed = confirm('Are you ready to become a rockstar!?');
 
 if(confirmed === true){
@@ -22,7 +22,6 @@ if (answer1.toUpperCase() === 'Y') {
   alert('Yes! You are correct!!! I was on active duty for 6.5 years!');
 } else {
   alert('No... you are wrong.');
-  /*var rightAnswer = rightAnswer -1;*/
 }
 
 var answer2 = prompt(user + ' please answer with a Yes or No. Do you believe I am 27 years old?');
@@ -32,7 +31,6 @@ if (answer2.toLowerCase() === 'yes') {
   alert('You are correct!');
 } else {
   alert('Naw. Sorry you are wrong');
-  /*rightAnswer = rightAnswer -1;*/
 }
 
 var answer3 = prompt('Do you think I have a cat? This is a yes or no question, please answer with a yes or no.');
@@ -42,7 +40,6 @@ if (answer3.toLowerCase() === 'yes') {
   alert('You are amazing and correct!');
 } else {
   alert('No, sorry you are wrong bro.');
-  /*rightAnswer = rightAnswer -1;*/
 }
 
 var answer4 = prompt('Do I have a little brother? This is a y or n question, so please answer with a y or n.');
@@ -52,7 +49,6 @@ if (answer4.toLowerCase() === 'y') {
   alert('You are correct!');
 } else {
   alert('Nope. You are wrong...');
-  /*rightAnswer = rightAnswer -1;*/
 }
 
 var answer5 = prompt('Do you think I currently have a GTO? yes or no please ' + user + '.');
@@ -62,10 +58,9 @@ if (answer5.toLowerCase() === 'yes') {
   alert('No... Sadly I sold it.');
 } else {
   alert('You are amazing and correct! ');
-  /*rightAnswer = rightAnswer -1;*/
 }
 
-var confirm = confirm('Thanks for answering my questions ' + user!);
+var confirmed = confirm('Thanks for answering my questions ' + user + ' Confirm to move on to my About me!');
 
 if(confirmed === true){
   console.log('The user is ready!');
