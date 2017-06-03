@@ -75,7 +75,7 @@ answer2Function();
 
 function answer3Function() {
 
-  var answer3 = prompt('Do you think I have a cat? This is a yes or no question, please answer with a yes or no.').toLowerCase;
+  var answer3 = prompt('Do you think I have a cat? This is a yes or no question, please answer with a yes or no.').toLowerCase();
   db[2] = {'Do you think I have a cat? Correct answer: yes...': answer3};
 
   if (answer3 === 'yes' || answer3 === 'y') {
@@ -93,7 +93,7 @@ answer3Function();
 
 function answer4Function() {
 
-  var answer4 = prompt('Do I have a little brother? This is a y or n question, so please answer with a y or n.').toLowerCase;
+  var answer4 = prompt('Do I have a little brother? This is a y or n question, so please answer with a y or n.').toLowerCase();
   db[3] = {'Do I have a little brother? Correct answer: y...': answer4};
 
   if (answer4 === 'y' || answer4 === 'yes') {
@@ -111,7 +111,7 @@ answer4Function();
 
 function answer5Function() {
 
-  var answer5 = prompt('Do you think I currently have a GTO? yes or no please ' + user + '.').toLowerCase;
+  var answer5 = prompt('Do you think I currently have a GTO? yes or no please ' + user + '.').toLowerCase();
   db[4] = {'Do you think I currently have a GTO? Correct answer: no...': answer5};
 
   if (answer5 === 'yes' || answer5 === 'y') {
