@@ -18,7 +18,7 @@ console.log(db);
 alert('Hello ' + user + '... I\'m going to ask you a few questions.');
 
 var answer1 = prompt(user + ' Please answer with a Y or N. Do you think I was in the Air Force?');
-db[0] = {'Do you think I was in the Air Force? Correct answer: Y...' : answer1};
+db[0] = {'Do you think I was in the Air Force? Correct answer: Y...': answer1};
 
 if (answer1.toUpperCase() === 'Y') {
   alert('Yes! You are correct!!! I was on active duty for 6.5 years!');
