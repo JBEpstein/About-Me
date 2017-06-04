@@ -142,11 +142,13 @@ function answer6Function() {
     } else if (guessNumber > correctAnswer){
       attempts --;
       alert('Guess lower!');
-    } else {
+    } else if (guessNumber == correctAnswer){
       alert('You guessed right!');
       correct += 1;
       console.log('correct= ' + correct);
       break;
+    } else {
+      alert('Wrong you suck, you didnt enter a valid thing')
     }
   }
 
