@@ -26,7 +26,22 @@ body, html {
   background-image: url("civilian.JPG");
 }
 
-.military, .highschool, .civilian {
+.wine {
+  min-height: 300px;
+  background-image: url("Wine.JPG");
+}
+
+.friends {
+  min-height: 300px;
+  background-image: url("friends.JPG");
+}
+
+.boat {
+  min-height: 300px;
+  background-image: url("boat.JPG");
+}
+
+.military, .highschool, .civilian, .wine, .friends, .boat {
   position: relative;
   /* opacity: 0.65; */
   background-attachment: fixed;
