@@ -14,31 +14,37 @@ body, html {
 .military {
   min-height: 300px;
   background-image: url(images/military.jpg);
+  opacity: 0.6;
 }
 
 .highschool {
   min-height: 300px;
   background-image: url(images/highschool.jpg);
+  opacity: 0.6;
 }
 
 .civilian {
   min-height: 300px;
   background-image: url(images/civilian.JPG);
+  opacity: 0.6;
 }
 
 .wine {
   min-height: 300px;
   background-image: url(images/Wine.JPG);
+  opacity: 0.6;
 }
 
 .grandparents {
   min-height: 300px;
   background-image: url(images/grandparents.JPG);
+  opacity: 0.6;
 }
 
 .boat {
   min-height: 300px;
   background-image: url(images/boat.JPG);
+  opacity: 0.6;
 }
 
 .military, .highschool, .civilian, .wine, .grandparents, .boat {
