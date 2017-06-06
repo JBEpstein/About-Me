@@ -163,12 +163,12 @@ guessingFunction();
 
 function statesFunction() {
 
-  var states = ['California', 'Arizona', 'New Mexico', 'Texas', 'Florida'];
+  var states = ['california', 'arizona', 'new mexico', 'texas', 'florida'];
 
   var statesAttempts = 6;
 
   for (var i = 0; i < 7; i++) {
-    var statesQuestion = prompt('Can you guess what states I\'ve lived in besides Washington?');
+    var statesQuestion = prompt('Can you guess what states I\'ve lived in besides Washington?').toLowerCase();
 
     if (statesQuestion === states[0] || statesQuestion === states[1] || statesQuestion === states[2] || statesQuestion === states[3] || statesQuestion === states[4]){
       alert('You are correct!');
