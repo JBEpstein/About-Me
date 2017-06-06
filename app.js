@@ -37,7 +37,7 @@ console.log('The user\'s name is: ' + user);
 console.log(db);
 alert('Hello ' + user + '... I\'m going to ask you a few questions.');
 
-function answer1Function() {
+function airforceFunction() {
 
   var answer1 = prompt(user + ' Please answer with a Y or N. Do you think I was in the Air Force?').toUpperCase();
   db[0] = {'Do you think I was in the Air Force? Correct answer: Y...': answer1};
@@ -53,9 +53,9 @@ function answer1Function() {
   }
 };
 
-answer1Function();
+airforceFunction();
 
-function answer2Function() {
+function ageFunction() {
 
   var answer2 = prompt(user + ' please answer with a Yes or No. Do you believe I am 27 years old?').toLowerCase();
   db[1] = {'Do you believe I am 27 years old? Correct answer: Yes...': answer2};
@@ -71,9 +71,9 @@ function answer2Function() {
   }
 };
 
-answer2Function();
+ageFunction();
 
-function answer3Function() {
+function kittyFunction() {
 
   var answer3 = prompt('Do you think I have a cat? This is a yes or no question, please answer with a yes or no.').toLowerCase();
   db[2] = {'Do you think I have a cat? Correct answer: yes...': answer3};
@@ -89,9 +89,9 @@ function answer3Function() {
   }
 };
 
-answer3Function();
+kittyFunction();
 
-function answer4Function() {
+function brotherFunction() {
 
   var answer4 = prompt('Do I have a little brother? This is a y or n question, so please answer with a y or n.').toLowerCase();
   db[3] = {'Do I have a little brother? Correct answer: y...': answer4};
@@ -107,9 +107,9 @@ function answer4Function() {
   }
 };
 
-answer4Function();
+brotherFunction();
 
-function answer5Function() {
+function gtoFunction() {
 
   var answer5 = prompt('Do you think I currently have a GTO? yes or no please ' + user + '.').toLowerCase();
   db[4] = {'Do you think I currently have a GTO? Correct answer: no...': answer5};
@@ -125,9 +125,9 @@ function answer5Function() {
   }
 };
 
-answer5Function();
+gtoFunction();
 
-function answer6Function() {
+function guessingFunction() {
 
   var correctAnswer = Math.floor((Math.random() * 10) + 1);
 
@@ -159,9 +159,9 @@ function answer6Function() {
   }
 };
 
-answer6Function();
+guessingFunction();
 
-function answer7Function() {
+function statesFunction() {
 
   var states = ['California', 'Arizona', 'New Mexico', 'Texas', 'Florida'];
 
@@ -187,7 +187,7 @@ function answer7Function() {
   }
 };
 
-answer7Function();
+statesFunction();
 
 var confirmed = confirm('Thanks for answering my questions ' + user + '!' + ' You got ' + correct + ' correct!');
 
