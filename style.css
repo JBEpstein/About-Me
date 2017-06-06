@@ -2,9 +2,9 @@ body, html {
   height: 100%;
 }
 
-.parallax {
+.bigparallax {
   min-height: 800px;
-  background-image: url("joel2.jpg");
+  background-image: url(images/joel2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,32 +13,32 @@ body, html {
 
 .military {
   min-height: 300px;
-  background-image: url("military.jpg");
+  background-image: url(images/military.jpg);
 }
 
 .highschool {
   min-height: 300px;
-  background-image: url("highschool.jpg");
+  background-image: url(images/highschool.jpg);
 }
 
 .civilian {
   min-height: 300px;
-  background-image: url("civilian.JPG");
+  background-image: url(images/civilian.JPG);
 }
 
 .wine {
   min-height: 300px;
-  background-image: url("Wine.JPG");
+  background-image: url(images/Wine.JPG);
 }
 
 .grandparents {
   min-height: 300px;
-  background-image: url("grandparents.JPG");
+  background-image: url(images/grandparents.JPG);
 }
 
 .boat {
   min-height: 300px;
-  background-image: url("boat.JPG");
+  background-image: url(images/boat.JPG);
 }
 
 .military, .highschool, .civilian, .wine, .grandparents, .boat {
