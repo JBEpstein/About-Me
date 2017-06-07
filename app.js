@@ -1,6 +1,7 @@
 'use strict';
 
 var db = [];
+//I was toying with this but didnt want to break anything...
 /*var answersList = [answer1, answer2, answer3, answer4, answer5];
 
 function userPromptAnswers (answers){
@@ -22,6 +23,7 @@ function userPromptLogic () {
 
 userPromptAnswers (answer1); */
 
+// Rockstar confirm
 var correct = 0;
 var incorrect = 0;
 var confirmed = confirm('Are you ready to become a rockstar!?');
@@ -32,11 +34,13 @@ if(confirmed === true){
   console.log('The user said they were not ready... but were gonna start anyway.');
 }
 
+// grabing the user's name
 var user = prompt('What is your name? Mine is Joel.');
 console.log('The user\'s name is: ' + user);
 console.log(db);
 alert('Hello ' + user + '... I\'m going to ask you a few questions.');
 
+// Question about the Air Force
 function airforceFunction() {
 
   var answer1 = prompt(user + ' Please answer with a Y or N. Do you think I was in the Air Force?').toUpperCase();
@@ -53,8 +57,7 @@ function airforceFunction() {
   }
 };
 
-airforceFunction();
-
+// Whats my age question!
 function ageFunction() {
 
   var answer2 = prompt(user + ' please answer with a Yes or No. Do you believe I am 27 years old?').toLowerCase();
@@ -71,8 +74,7 @@ function ageFunction() {
   }
 };
 
-ageFunction();
-
+//Cat question =)
 function kittyFunction() {
 
   var answer3 = prompt('Do you think I have a cat? This is a yes or no question, please answer with a yes or no.').toLowerCase();
@@ -89,8 +91,7 @@ function kittyFunction() {
   }
 };
 
-kittyFunction();
-
+//Do I have a little brother question...
 function brotherFunction() {
 
   var answer4 = prompt('Do I have a little brother? This is a y or n question, so please answer with a y or n.').toLowerCase();
@@ -107,8 +108,7 @@ function brotherFunction() {
   }
 };
 
-brotherFunction();
-
+//GTO question, I'm so sad I got rid of it.
 function gtoFunction() {
 
   var answer5 = prompt('Do you think I currently have a GTO? yes or no please ' + user + '.').toLowerCase();
@@ -125,8 +125,7 @@ function gtoFunction() {
   }
 };
 
-gtoFunction();
-
+//Number guessing game!
 function guessingFunction() {
 
   var correctAnswer = Math.floor((Math.random() * 10) + 1);
@@ -159,8 +158,7 @@ function guessingFunction() {
   }
 };
 
-guessingFunction();
-
+//Guess which states I have lived in.
 function statesFunction() {
 
   var states = ['california', 'arizona', 'new mexico', 'texas', 'florida'];
@@ -187,6 +185,12 @@ function statesFunction() {
   }
 };
 
+airforceFunction();
+ageFunction();
+kittyFunction();
+brotherFunction();
+gtoFunction();
+guessingFunction();
 statesFunction();
 
 var confirmed = confirm('Thanks for answering my questions ' + user + '!' + ' You got ' + correct + ' correct!');

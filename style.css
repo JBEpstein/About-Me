@@ -2,6 +2,7 @@ body, html {
   height: 100%;
 }
 
+/* bigparallax -- Big background picture with orange beanie*/
 .bigparallax {
   min-height: 800px;
   background-image: url(images/joel2.jpg);
@@ -11,42 +12,49 @@ body, html {
   background-size: cover;
 }
 
+/*.military - Military graduation picture*/
 .military {
   min-height: 300px;
   background-image: url(images/military.jpg);
   opacity: 0.6;
 }
 
+/*.highschool - My highschool, that was my Drill Sgt*/
 .highschool {
   min-height: 300px;
   background-image: url(images/highschool.jpg);
   opacity: 0.6;
 }
 
+/*Picture not used!*/
 .civilian {
   min-height: 300px;
   background-image: url(images/civilian.JPG);
   opacity: 0.6;
 }
 
+/*.wine - at the winery with some friends!*/
 .wine {
   min-height: 300px;
   background-image: url(images/Wine.JPG);
   opacity: 0.6;
 }
 
+/*.grandparents - My grandparents apartment in bellevue, the view is amazing*/
 .grandparents {
   min-height: 300px;
   background-image: url(images/grandparents.JPG);
   opacity: 0.6;
 }
 
+/*.boat - crusing on the yacht...*/
 .boat {
   min-height: 300px;
   background-image: url(images/boat.JPG);
   opacity: 0.6;
 }
 
+/*Styling for all the background images*/
 .military, .highschool, .civilian, .wine, .grandparents, .boat {
   position: relative;
   /* opacity: 0.65; */
@@ -70,13 +78,13 @@ body, html {
   margin-bottom: 0;
 }
 
-.shadow-box {
+/*.shadow-box {
   margin: 0;
   background-color: #000000;
   border: 1px solid black;
   opacity: 0.1;
   padding: 80px 30px 80px 80px;
-}
+}*/
 
 .normal-box {
   color:#ddd;
